@@ -1,0 +1,57 @@
+body {
+    text-align: center;
+}
+.board {
+    text-align: center;
+    display: inline-block;
+    margin-top: 2rem;
+}
+
+.player-details {
+    display: flex;
+    font-size: 2rem;
+    justify-content: center;
+}
+.row {
+    display: flex;
+}
+
+.col-button {
+    background: lightgrey;
+    height: 4rem;
+    width: 4rem;
+    border: 3px solid lightgrey;
+    border-radius: 50%;
+    outline: 0;
+    margin: 3px;
+}
+
+.col-button:focus {
+    border: 3px solid grey;
+}
+
+.red {
+    background: red;
+    opacity: 1;
+}
+
+.black {
+    background: black;
+    opacity: 1;
+}
+
+.reset {
+    background: #6dc16d;
+    color: #fff;
+    padding: 10px;
+    width: 150px;
+    font-size: 1rem;
+    border-radius: 5px;
+    border: 0;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    margin-top: 1rem;
+    display: none;
+}
